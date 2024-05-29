@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaRegUserCircle } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
@@ -11,8 +12,8 @@ const Navbar = () => {
       <div className="text-black-900">
         <nav className="bg-white border-b-2 border-gray-200 border-gray-200 dark:bg-gray-900">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a
-              href="https://flowbite.com/"
+            <Link
+              to="/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img
@@ -21,9 +22,9 @@ const Navbar = () => {
                 alt="Flowbite Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Flowbite
+              Bioplentypeps
               </span>
-            </a>
+            </Link>
 
             <div className="flex md:order-1">
               <button
@@ -151,66 +152,66 @@ const Navbar = () => {
                     <span>
                       <FaRegUserCircle className="w-6 h-6" />
                     </span>
-                    <a href="#" aria-current="page">
+                    <Link to="signin">
                       Sign in
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li>
                   <div className="flex justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                     <MdOutlineShoppingCart className="w-6 h-6" />
-                    <a href="#" aria-current="page">
+                    <a href="#">
                       My Cart
                     </a>
                   </div>
                 </li>
 
                 <li>
-                  <div className="flex md:hidden justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#" aria-current="page">
+                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                    <a href="#">
                       Buy Peptides
                     </a>
                   </div>
                 </li>
 
                 <li>
-                  <div className="flex md:hidden justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#" aria-current="page">
+                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                    <a href="#">
                       Peptide Specials
                     </a>
                   </div>
                 </li>
 
                 <li>
-                  <div className="flex md:hidden justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#" aria-current="page">
+                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                    <a href="#">
                       Peptide Blog
                     </a>
                   </div>
                 </li>
 
                 <li>
-                  <div className="flex md:hidden justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#" aria-current="page">
+                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                    <a href="#">
                       Peptide Information
                     </a>
                   </div>
                 </li>
 
                 <li>
-                  <div className="flex md:hidden justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#" aria-current="page">
+                    <Link to="ourcompany">
+                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                       Our Company
-                    </a>
                   </div>
+                    </Link>
                 </li>
 
                 <li>
-                  <div className="flex md:hidden justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#" aria-current="page">
+                    <Link to="contact">
+                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                       Contact Us
-                    </a>
                   </div>
+                    </Link>
                 </li>
               </ul>
             </div>
@@ -219,16 +220,16 @@ const Navbar = () => {
           <div className="max-w-screen-xl relative hidden md:flex flex-wrap items-center justify-between mx-auto p-4">
             <div>
               <ul className="flex gap-9">
-                <li>
+                <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
                   <a href="#">Buy Peptides</a>
                 </li>
-                <li>
+                <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
                   <a href="#">Peptides Specials</a>
                 </li>
-                <li>
+                <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
                   <a href="#">Peptides Blog</a>
                 </li>
-                <li>
+                <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
                   <a href="#">Peptides Information</a>
                 </li>
               </ul>
@@ -236,11 +237,11 @@ const Navbar = () => {
 
             <div>
               <ul className="flex gap-9">
-                <li>
-                  <a href="#">Our Company</a>
+                <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
+                  <Link to="ourcompany">Our Company</Link>
                 </li>
-                <li>
-                  <a href="#">Contact Us</a>
+                <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
+                  <Link to="contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
