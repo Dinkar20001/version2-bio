@@ -11,7 +11,7 @@ const Latestinformation = () => {
           <div className="flex flex-col">
             <h2 className="font-bold text-4xl">Be the first to know</h2>
             <h6>
-              Receive all the latest information on events,sales, & offers.
+              Receive all the latest information on events, sales, & offers.
             </h6>
           </div>
           

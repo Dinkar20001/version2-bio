@@ -4,6 +4,7 @@ import { MdMyLocation, MdOutlineDateRange, MdOutlineMail } from "react-icons/md"
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -122,33 +123,33 @@ const Footer = () => {
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400">
                   <li className="mb-4">
-                    <a href="https://flowbite.com/" className="hover:underline">
+                    <Link to="privacy" className="hover:underline">
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a
-                      href="https://tailwindcss.com/"
+                    <Link
+                      to="terms"
                       className="hover:underline"
                     >
                       Terms of use
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a
-                      href="https://tailwindcss.com/"
+                    <Link
+                      to="customer-service"
                       className="hover:underline"
                     >
                       Shipping & Payments
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a
-                      href="https://tailwindcss.com/"
+                    <Link
+                      to="refunds"
                       className="hover:underline"
                     >
                       Refunds & Returns
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
