@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
+import Latestinformation from './../Latestinformation';
 
 const Ourcompany = () => {
   return (
     <>
-    <div>
-        <h1 className='text-orange-600 mb-96 mt-96 font-bold text-7xl text-center'>Company page is Under Development :-</h1>
-    </div>
+    
+    <Latestinformation />
     </>
-  )
-}
+  );
+};
 
-export default Ourcompany
+export default Ourcompany;
