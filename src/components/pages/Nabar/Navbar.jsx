@@ -192,9 +192,9 @@ const Navbar = () => {
 
                 <li>
                   <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#">
+                    <Link to="pepdite-information">
                       Peptide Information
-                    </a>
+                    </Link>
                   </div>
                 </li>
 
@@ -230,7 +230,7 @@ const Navbar = () => {
                   <a href="#">Peptides Blog</a>
                 </li>
                 <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
-                  <a href="#">Peptides Information</a>
+                  <Link to="pepdite-information">Peptides Information</Link>
                 </li>
               </ul>
             </div>

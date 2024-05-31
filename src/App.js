@@ -12,6 +12,10 @@ import Customer from "./components/pages/Footer/Customer";
 import Refunds from "./components/pages/Footer/Refunds";
 import { useEffect } from "react";
 import Terms from "./components/pages/Footer/Terms";
+import Peptideinfo from "./components/pages/Peptideinfo/Peptideinfo";
+import Intropeptide from "./components/pages/Peptideinfo/Intropeptide";
+import Reconstitution from "./components/pages/Peptideinfo/Reconstitution";
+import Pepstorage from "./components/pages/Peptideinfo/Pepstorage";
 
 function ScrollToTopOnMount() {
   const { pathname } = useLocation();
@@ -46,6 +50,11 @@ function App() {
           <Route path="/refunds" element={<Refunds />} />
           <Route path="/terms" element={<Terms />} />
 
+          {/* peptide information */}
+          <Route path="/pepdite-information" element={<Peptideinfo />} />
+          <Route path="/pepdite-information/peptide" element={<Intropeptide />} />
+          <Route path="/pepdite-information/peptide-reconstitution" element={<Reconstitution />} />
+          <Route path="/pepdite-information/peptide-storage" element={<Pepstorage />} />
 
         </Routes>
         <Footer />
