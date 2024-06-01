@@ -16,6 +16,15 @@ import Peptideinfo from "./components/pages/Peptideinfo/Peptideinfo";
 import Intropeptide from "./components/pages/Peptideinfo/Intropeptide";
 import Reconstitution from "./components/pages/Peptideinfo/Reconstitution";
 import Pepstorage from "./components/pages/Peptideinfo/Pepstorage";
+import Indiampeptide from "./components/pages/Peptideinfo/Indiampeptide";
+import Peptidebond from "./components/pages/Peptideinfo/Peptidebond";
+import Intropurity from "./components/pages/Peptideinfo/Intropurity";
+import Peptpurification from "./components/pages/Peptideinfo/Peptpurification";
+import Peptidesolubility from "./components/pages/Peptideinfo/Peptidesolubility";
+import Peptidesynthesis from "./components/pages/Peptideinfo/Peptidesynthesis";
+import Peptideprotiens from "./components/pages/Peptideinfo/Peptideprotiens";
+import Peptideresearch from "./components/pages/Peptideinfo/Peptideresearch";
+import Blog from "./components/pages/Blogs/Blog";
 
 function ScrollToTopOnMount() {
   const { pathname } = useLocation();
@@ -55,6 +64,17 @@ function App() {
           <Route path="/pepdite-information/peptide" element={<Intropeptide />} />
           <Route path="/pepdite-information/peptide-reconstitution" element={<Reconstitution />} />
           <Route path="/pepdite-information/peptide-storage" element={<Pepstorage />} />
+          <Route path="/pepdite-information/indian-made-peptide" element={<Indiampeptide />} />
+          <Route path="/pepdite-information/Peptide-bond" element={<Peptidebond />} />
+          <Route path="/pepdite-information/Peptide-purity" element={<Intropurity />} />
+          <Route path="/pepdite-information/peptide-purification" element={<Peptpurification />} />
+          <Route path="/pepdite-information/peptide-solubility" element={<Peptidesolubility />} />
+          <Route path="/pepdite-information/peptide-synthesis" element={<Peptidesynthesis />} />
+          <Route path="/pepdite-information/peptide-vs-protiens" element={<Peptideprotiens />} />
+          <Route path="/pepdite-information/peptide-research" element={<Peptideresearch />} />
+
+          {/* Blogs connection */}
+          <Route path="/blog" element={<Blog />} />
 
         </Routes>
         <Footer />

@@ -8,60 +8,70 @@ const Peptideinfo = () => {
     {
       title: "Intro to Peptides",
       date: "OCT 20, 2023",
+      addresslink: "/pepdite-information/peptide",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/05/peptides-intro-2.png",
     },
     {
       title: "India Made Peptides",
       date: "OCT 16, 2023",
+      addresslink: "/pepdite-information/indian-made-peptide",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/07/USA-Peptides-550x429.png",
     },
     {
       title: "Peptide Synthesis",
       date: "SEP 27, 2023",
+      addresslink: "/pepdite-information/peptide-synthesis",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/05/peptide-bod.png",
     },
     {
       title: "Peptide Solubility",
       date: "OCT 16, 2023",
+      addresslink: "/pepdite-information/peptide-solubility",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/07/DMSO-molecule.jpeg",
     },
     {
       title: "Peptide Purification",
       date: "SEP 19, 2023",
+      addresslink: "/pepdite-information/peptide-purification",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/08/Peptide-Purification-Cool-Molecule-550x429.jpg",
     },
     {
       title: "Peptide Bonds",
       date: "SEP 17, 2023",
+      addresslink: "/pepdite-information/Peptide-bond",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/05/peptide-bond-1.png",
     },
     {
       title: "Peptide Reconstitution",
       date: "SEP 17, 2023",
+      addresslink: "/pepdite-information/peptide-reconstitution",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/05/peptide-reconstitution.png",
     },
     {
       title: "Peptide Storage",
       date: "SEP 15, 2023",
+      addresslink: "/pepdite-information/peptide-storage",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/05/peptide-storage.png",
     },
     {
       title: "Research Peptides",
       date: "SEP 09, 2023",
+      addresslink: "/pepdite-information/peptide-research",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/07/Research-Peptides-1.jpg",
     },
     {
       title: "Peptide vs Proteins",
       date: "AUG 07, 2023",
+      addresslink: "/pepdite-information/peptide-vs-protiens",
       imgSrc:
         "https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/05/peptides-vs-proteins.png",
     },
@@ -110,11 +120,18 @@ const Peptideinfo = () => {
               {sections.map((section, index) => (
                 <div key={index} className="w-full lg:w-6/12 flex gap-4 mt-3">
                   <div className="inline-block border">
+                  <Link to={section.addresslink}>
                     <img width={110} src={section.imgSrc} alt="dynamo" />
+                  </Link>
                   </div>
                   <div>
+                  <Link to={section.addresslink}>
                     <h3 className="text-xl font-semibold">{section.title}</h3>
+                  </Link>
+
+                  <Link to={section.addresslink}>
                     <p className="text-sm text-gray-400">{section.date}</p>
+                  </Link>
                   </div>
                 </div>
               ))}

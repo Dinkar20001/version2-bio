@@ -46,59 +46,51 @@ const Pepstorage = () => {
                 <p className="mt-5">Additionally, it is important to avoid repeated freeze-thaw cycles. This can increase the peptide’s susceptibility to degradation. Also, frost-free freezers should be avoided to store peptides, as temperatures can fluctuate widely during defrosting cycles.</p>
               </div>
             </div>
-            <hr className="my-5 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-7" />
 
-            <div className="text-sm">
-              <h2 className="text-2xl mt-3 mb-4">Reconstituting Peptides</h2>
-              <p>
-              Before lyophilized peptides can be utilized in the lab, they have to be reconstituted; that is, they must be dissolved in a liquid solution. Unfortunately, there is not a “one size fits all” solvent that will solubilize all peptides while maintaining peptide integrity and compatibility with biological assays. While sterile, distilled water or regular bacteriostatic water is the first choice, this will not dissolve all peptides. As a result, the researcher may have to undertake a trial and error approach and attempt to dissolve the peptide in increasingly stronger solvents. <b>Sodium Chloride water is NOT recommended due to its tendency to cause precipitates with acetate salts.</b>
-              </p>
-              <p className="mt-5">
-              A peptide’s polarity is the main factor by which its solubility is determined. Basic peptides can be dissolved in acidic solutions, and, conversely, acidic peptides can be reconstituted in basic solutions. Additionally, hydrophobic peptides, as well as neutral peptides that contain numerous hydrophobic or polar uncharged amino acids, should be dissolved in organic solvents. Examples include acetic acid, propanol, isopropanol, and DMSO. The amount of organic solvent used should be small, however. Once the peptide is dissolved in the solution, then dilution with sterile water or bacteriostatic water should be performed. Sodium Chloride water is NOT recommended due to its tendency to cause precipitates with acetate salts. Importantly, peptides with methionine or free cysteine should not be dissolved in DMSO. Side-chain oxidation may occur, rendering the peptide unfit for laboratory experimentation.
-              </p>
-              <hr className="my-5 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-7" />
+            <div className="text-sm mt-5">
               <div className="text-sm">
-              <h2 className="text-2xl mt-3 mb-4">Peptide Reconstitution Guidelines</h2>
                 <div className="flex flex-col md:flex-row">
-                  <p>
-                  Generally, it is advised to first attempt to dissolve peptides in solvents that are easy to remove by lyophilization. This is a precaution: in case the initial solvent is not effective, it can be removed again by the lyophilization process. Typically, the researcher should first attempt to dissolve the peptide in sterile distilled water or regular bacteriostatic water or in sterile dilute acetic acid (0.1%) solution. As a general guideline, it is recommended to test a small portion of the peptide for solubility in the chosen solvent before attempting to dissolve the entire peptide.
-                  </p>
                   <img
-                    width={175}
-                    src="https://www.peptidesciences.com/peptide-information/wp-content/uploads/2016/05/How-to-Reconstitute-mix-a-Peptide-300x200.jpg"
+                    width={550}
+                    src="https://www.peptidesciences.com/media/wysiwyg/peptidestorage.png"
                     alt="peptide img"
                   />
                 </div>
               </div>
               <p className="mt-5">
-              Importantly, the initial use of sterile water (or dilute acetic acid) will allow the researcher to dry the peptide without any unwanted residues in case the peptide fails to dissolve. Once the initial ineffective solvent is removed, the researcher can then attempt to dissolve the peptide in increasingly stronger solvents.
+              It is imperative to avoid contaminating peptides with both air and moisture. Moisture contamination is especially prone to occur when using a peptide immediately after withdrawing it from the freezer. To prevent uptake of moisture from the air on the cold surface of the peptide or on the inside of its container, allow the peptide to come to room temperature before opening.
               </p>
               <p className="mt-5">
-              Additionally, researchers should dissolve the peptide in a sterile solvent to give a stock solution that is at a higher concentration than required for the assay. If the assay buffer is used first and the peptide does not dissolve, it can be very difficult to recover the peptide unadulterated. However, the peptide can always be diluted further with the assay buffer later on.
+              It is also crucially important to minimize a peptide’s exposure to the air. A peptide’s container should therefore be kept closed as much as possible. After the required amount of peptide has been removed, resealing the container under an atmosphere of dry, inert gas (such as nitrogen or argon) will minimize the potential for the remaining peptide to become oxidized. Peptides with sequences C (cysteine), M (methionine), and W (tryptophan) are especially prone to air oxidation.
               </p>
 
-              <hr className="my-5 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-7" />
-              <h2 className="text-2xl mt-3 mb-4">Sonication</h2>
-
-              <p>In the laboratory, sonication can be tried as method to improve the rate of peptide dissolution in the solvent if the peptide continues to persist as visible particles in the solution. Sonication will not change the peptide’s solubility characteristics in a given solvent; the sonication process merely assists with breaking down lumps of solid peptide and briskly stirring the solution. After the sonication process, the researcher should examine the solution to see if it is cloudy, has gelled, or has any type of surface scum. If so, it is likely that the peptide is only suspended in the solution, not dissolved; therefore, a stronger solvent will probably be required.</p>
+              <p className="mt-5">Because frequent thawing and refreezing as well as exposure to air can greatly reduce a peptide’s long-term stability, many researchers prefer to determine each experiment’s required amount of peptide and then aliquot this amount into separate vials as necessary. This is a highly useful preventative measure against peptide degradation.</p>
 
               <hr className="my-5 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-7" />
-              <h2 className="text-2xl mt-3 mb-4">Practical Implementation in the Laboratory</h2>
+              <h2 className="text-2xl mt-3 mb-4">Storing Peptides In Solution</h2>
 
-              <p>Although some peptides will need a stronger solvent to fully dissolve in a solution, as discussed above, sterile distilled water or regular bacteriostatic water is effective in many cases and is the most common solvent or diluent for reconstituting a peptide. <b>Sodium Chloride water is NOT recommended due to its tendency to cause precipitates with acetate salts.</b> What follows is a simple, typical example of peptide reconstitution in a laboratory setting. This is simply a general illustration of common laboratory procedure and is not specific to any one peptide.</p>
+              <p>The shelf life of peptide solutions is far less than that of lyophilized peptides, and peptides stored in solution are also vulnerable to bacterial degradation. Peptides containing Cys, Met, Trp, Asp, Gln, and N-terminal Glu in their sequences have especially short shelf lives when in solution.</p>
 
-              <p className="mt-5">Important: allow the peptide to come to room temperature before opening its container. For more information on preserving the stability and integrity of research peptides, read our peptide storage page.</p>
+              <p className="mt-5">Nevertheless, if peptides absolutely must be stored in solution, sterile buffers at pH 5-6 should be used, and the peptide solution should be separated into aliquots to avoid repeated freezing and thawing. Peptide solutions are generally stable for up to 30 days when refrigerated at 4C (39F), but those peptides with inherent instability should be kept frozen when not in use.</p>
+            
+              <hr className="my-5 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-7" />
+              <h2 className="text-2xl mt-3 mb-4">Peptide Storage Containers</h2>
 
-            <p className="mt-5">You may also choose to pass your peptide solution through a 0.2 µm filter if bacterial contamination is a concern.</p>
+              <p>Containers for peptide storage should be completely clean, clear, and structurally sound. They should also be chemically resistant and appropriately sized for the amount of peptide in them. Both glass and plastic vials are commonly used; plastic vials vary between those composed of polystyrene and those made of polypropylene. Polystyrene vials are generally clear but not chemically resistant; however, polypropylene vials are generally translucent but chemically resistant.</p>
 
-            <p className="mt-5 font-bold">Example using sterile water as the diluent:</p>
+              <p className="mt-5">While high quality glass vials offer all of the desirable characteristics for a peptide storage container, peptides are sometimes shipped in plastic vials in order to guard against breakage. Still, peptides can always be transferred from a plastic container to a glass container or vice versa, if necessary.</p>
 
-            <p className="mt-5"><b>STEP 1</b> – Remove the plastic cap from the peptide vial to expose the rubber stopper.</p>
-            <p><b>STEP 2</b> – Remove the plastic cap from the sterile water vial to expose the rubber stopper.</p>
-            <p><b>STEP 3</b> – To prevent bacterial contamination, swab the rubber stoppers with alcohol.</p>
-            <p><b>STEP 4</b> – Extract 2mL (milliliters) of water from the sterile water vial.</p>
-            <p><b>STEP 5</b> – Insert the 2mL (milliliters) of sterile water into the peptide vial, letting the water slowly enter the vial.</p>
-            <p><b>STEP 6</b> – Gently swirl the solution until all peptide is dissolved – do not shake the vial.</p>
+              <hr className="my-5 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-7" />
+              <h2 className="text-2xl mt-3 mb-4">Peptide Storage Guidelines: General Tips</h2>
+
+            <p className="mt-5 font-bold">When storing peptides, remember to:</p>
+
+            <p className="mt-5"><b>&#x2022;</b> Store peptide in a cold, dry, dark place</p>
+            <p><b>&#x2022;</b> Avoid repeated freezing and thawing of peptide</p>
+            <p><b>&#x2022;</b> Avoid overexposure to the air</p>
+            <p><b>&#x2022;</b> Avoid light exposure</p>
+            <p><b>&#x2022;</b> Avoid storing peptides in solution long term</p>
+            <p><b>&#x2022;</b> Aliquot peptide according to experimental requirements</p>
 
             </div>
           </div>
