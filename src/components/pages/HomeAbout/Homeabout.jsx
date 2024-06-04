@@ -7,12 +7,12 @@ const Homeabout = () => {
                 <div className='max-w-screen-xl grid md:grid-cols-2 grid-cols-1 mx-auto'>
 
                     <div className='p-6'>
-                            <h1 className='font-bold text-3xl'>About Bio-Plentypeps</h1>
+                            <h1 className='font-bold text-3xl'>About BioPlentypeps</h1>
 
                             <div>
                             <div className='mt-4'>
                                 <h1 className='font-bold text-md'>Our Company</h1>
-                                <p>Lyotex Sciences has been working with scientists for over 19 years to provide the life science community with the latest and most innovative research tools available. We understand the need for researchers to trust their research supplies which is why we are committed to supplying our customers with the highest quality product available, so you can publish with confidence. </p>
+                                <p>bioplentypeps Sciences has been working with scientists for over 19 years to provide the life science community with the latest and most innovative research tools available. We understand the need for researchers to trust their research supplies which is why we are committed to supplying our customers with the highest quality product available, so you can publish with confidence. </p>
                             </div>
                             <div className='mt-4'>
                                 <h1 className='font-bold text-md'>Perfection. Guidance. Cost-efficiency.</h1>

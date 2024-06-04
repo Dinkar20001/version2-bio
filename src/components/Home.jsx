@@ -13,9 +13,9 @@ const Home = () => {
         <Deliveryprocess />
 
           <Indexproductlist/>
-        <div className='mt-96'>
-        </div>
 
+        {/* <div className='mt-96'>
+        </div> */}
 
         <Homeabout />
         <Latestinformation />

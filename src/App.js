@@ -25,6 +25,7 @@ import Peptidesynthesis from "./components/pages/Peptideinfo/Peptidesynthesis";
 import Peptideprotiens from "./components/pages/Peptideinfo/Peptideprotiens";
 import Peptideresearch from "./components/pages/Peptideinfo/Peptideresearch";
 import Blog from "./components/pages/Blogs/Blog";
+import Notfound from "./components/Notfound";
 
 function ScrollToTopOnMount() {
   const { pathname } = useLocation();
@@ -75,6 +76,7 @@ function App() {
 
           {/* Blogs connection */}
           <Route path="/blog" element={<Blog />} />
+          <Route path="*" element={<Notfound />} />
 
         </Routes>
         <Footer />

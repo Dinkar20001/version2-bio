@@ -27,10 +27,10 @@ const Ourcompany = () => {
                   Quality. Service. Value.
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  Bioplentypeps™, formerly known as Bioplentypeps™, is your safe, convenient, and private online source for INDIA manufactured, highest purity, research peptides. Quality products and exceptional service are very important to us at Lyotex Sciences, and we work hard to bring value to our customers. We manufacture our products through the most reputable research chemical manufacturing companies in the world, and our prices are some of the lowest online. 
+                  Bioplentypeps™, formerly known as Bioplentypeps™, is your safe, convenient, and private online source for INDIA manufactured, highest purity, research peptides. Quality products and exceptional service are very important to us at bioplentypeps Sciences, and we work hard to bring value to our customers. We manufacture our products through the most reputable research chemical manufacturing companies in the world, and our prices are some of the lowest online. 
                   </p>
 
-                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">Ordering online from Lyotex Sciences is simple and convenient. You can enjoy complete privacy and place orders anytime, 24x7. Our shopping cart is secured using the latest SSL technology, ensuring the highest standards of privacy assurance. Your orders and payment information remain encrypted, protected, and 100% discreet</p>
+                  <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">Ordering online from bioplentypeps Sciences is simple and convenient. You can enjoy complete privacy and place orders anytime, 24x7. Our shopping cart is secured using the latest SSL technology, ensuring the highest standards of privacy assurance. Your orders and payment information remain encrypted, protected, and 100% discreet</p>
 
                   <h2 className="mb-4 text-[15px] font-bold text-dark dark:text-white sm:text-[15px] lg:text-[20px] xl:text-[20px]">
                   Shipping

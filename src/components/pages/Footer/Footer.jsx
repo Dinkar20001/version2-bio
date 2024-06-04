@@ -14,17 +14,10 @@ const Footer = () => {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0 p-3">
               <a href="https://flowbite.com/" className="flex items-center">
-                <img
-                  src="https://flowbite.com/docs/images/logo.svg"
-                  className="h-8 me-3"
-                  alt="FlowBite Logo"
-                />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Bioplentypeps
-                </span>
+              <img src="https://github.com/Dinkar20001/for-image/assets/169672358/e1342927-9fe7-41d5-80a6-09552f921a7b" width="{90}" height="{90}" alt="Flowbite Logo" />
               </a>
-              <p className="w-72">
-              Lyotex Sciences has been working with scientists for over 19 years to provide the life science community with the latest and most innovative research tools available.
+              <p className="w-72 mt-6">
+              Bioplentypeps Sciences has been working with scientists for over 19 years to provide the life science community with the latest and most innovative research tools available.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 lg:grid-cols-5">
@@ -199,12 +192,12 @@ const Footer = () => {
                     </span>
                     <span className="inline-block">
                     <a href="#" className="hover:underline">
-                      service@lyotex.com
+                      service@bioplentypeps.com
                     </a>
                     </span>
                     <span className="inline-block">
                     <a href="#" className="hover:underline">
-                      support@lyotex.com
+                      support@bioplentypeps.com
                     </a>
                     </span>
                   </li>

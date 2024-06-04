@@ -10,3 +10,18 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bio-text {
+  background: linear-gradient(90deg, rgb(186, 224, 243), rgb(46, 134, 186), rgb(118, 172, 202));
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.plenty-text {
+  background: linear-gradient(90deg, rgb(44, 128, 183), rgb(161, 200, 224), rgb(26, 103, 170));
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.button-bg-color{
+  background-color: rgb(118, 172, 202);
+}

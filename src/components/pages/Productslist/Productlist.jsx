@@ -2,50 +2,50 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Productlist = () => {
+
+  const peptides = [
+    { name: "Semaglutide 1mg/vial", link: "/semaglutide-1mg" },
+    { name: "Semaglutide 2mg/vial", link: "/semaglutide-2mg" },
+    { name: "Tirzepatide 5mg/vial", link: "/tirzepatide-5mg" },
+    { name: "Tirzepatide 5mg/vial", link: "/tirzepatide-5mg-2" },
+    { name: "Tirzepatide 12.5mg/vial", link: "/tirzepatide-12-5mg" },
+    { name: "Retratrutide 4mg/vial", link: "/retratrutide-4mg" },
+    { name: "Retratrutide 8mg/vial", link: "/retratrutide-8mg" },
+    { name: "Somatropin 4iu/vial", link: "/somatropin-4iu" },
+    { name: "Somatropin 10iu/vial", link: "/somatropin-10iu" },
+    { name: "Somatropin 12iu/vial", link: "/somatropin-12iu" },
+    { name: "GHRP6 5mg/vial", link: "/ghrp6-5mg" },
+    { name: "GHRP6 10mg/vial", link: "/ghrp6-10mg" },
+    { name: "HGH fragment 2mg/vial", link: "/hgh-fragment-2mg" },
+    { name: "HGH fragment 5mg/vial", link: "/hgh-fragment-5mg" },
+    { name: "CJC 1295 w/o DAC 2mg/vial", link: "/cjc1295-no-dac-2mg" },
+    { name: "CJC 1295 w/o DAC 5mg/vial", link: "/cjc1295-no-dac-5mg" },
+    { name: "CJC 1295 DAC 2mg/vial", link: "/cjc1295-dac-2mg" },
+    { name: "CJC 1295 DAC 5mg/vial", link: "/cjc1295-dac-5mg" },
+    { name: "TB500 2mg/vial", link: "/tb500-2mg" },
+    { name: "TB500 5mg/vial", link: "/tb500-5mg" },
+    { name: "TB500 10mg/vial", link: "/tb500-10mg" },
+    { name: "BPC157 2mg/vial", link: "/bpc157-2mg" },
+    { name: "BPC157 5mg/vial", link: "/bpc157-5mg" },
+    { name: "BPC157 10mg/vial", link: "/bpc157-10mg" },
+    { name: "IGF 1LR3 100mcg/vial", link: "/igf1lr3-100mcg" },
+    { name: "IGF 1LR3 1mg/vial", link: "/igf1lr3-1mg" },
+  ];
+
   return (
     <>
       <section>
         <div>
           <h5 className="text-red-500 mb-3 font-bold">Purchase Peptide</h5>
-          
-          <Link to="/">
-            <p className="text-sm">Semaglutide 1mg/vial</p>
-          </Link>
-
-          <Link to="/Home">
-            <p className="text-sm mt-1">Semaglutide 2mg/vial</p>
-          </Link>
-
-          <Link to="/home">
-            <p className="text-sm mt-1">Tirzepatide 5mg/vial</p>
-          </Link>
-          
-          <Link to="/contact">
-            <p className="text-sm mt-1">Tirzepatide 5mg/vial</p>
-          </Link>
-
-          <p className="text-sm mt-1">Tirzepatide 12.5mg/vial</p>
-          <p className="text-sm mt-1">Retratrutide 4mg/vial</p>
-          <p className="text-sm mt-1">Retratrutide 8mg/vial</p>
-          <p className="text-sm mt-1">Somatropin 4iu/vial</p>
-          <p className="text-sm mt-1">Somatropin 10iu/vial</p>
-          <p className="text-sm mt-1">Somatropin 12iu/vial</p>
-          <p className="text-sm mt-1">GHRP6 5mg/vial</p>
-          <p className="text-sm mt-1">GHRP6 10mg/vial</p>
-          <p className="text-sm mt-1">HGH fragment 2mg/vial</p>
-          <p className="text-sm mt-1">HGH fragment 5mg/vial</p>
-          <p className="text-sm mt-1">CJC 1295 w/o DAC 2mg/vial</p>
-          <p className="text-sm mt-1">CJC 1295 w/o DAC 5mg/vial</p>
-          <p className="text-sm mt-1">CJC 1295 DAC 2mg/vial</p>
-          <p className="text-sm mt-1">CJC 1295 DAC 5mg/vial</p>
-          <p className="text-sm mt-1">TB500 2mg/vial</p>
-          <p className="text-sm mt-1">TB500 5mg/vial</p>
-          <p className="text-sm mt-1">TB500 10mg/vial</p>
-          <p className="text-sm mt-1">BPC157 2mg/vial</p>
-          <p className="text-sm mt-1">BPC157 5mg/vial</p>
-          <p className="text-sm mt-1">BPC157 10mg/vial</p>
-          <p className="text-sm mt-1">IGF 1LR3 100mcg/vial</p>
-          <p className="text-sm mt-1">IGF 1LR3 1mg/vial</p>
+          <ul>
+            {peptides.map((peptide, index) => (
+              <li key={index} className="text-sm mt-1 hover:text-blue-400">
+                <Link href={peptide.link} className="text-sm mt-1">
+                  {peptide.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
 
           <h5 className="text-red-500 mt-5 mb-3 font-bold">Peptide Capsules</h5>
           <p className="text-sm">MK-677 (Ibutamoren)</p>
