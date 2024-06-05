@@ -15,7 +15,7 @@ const Indexproductlist = () => {
           {/* Right side */}
           <div className="p-3 w-full md:w-9/12">
             <p className="text-[14px]">
-              Peptide Sciences™ specializes in the synthesis of highly purified
+              Bio Plenty™ specializes in the synthesis of highly purified
               peptides, proteins and amino acid derivatives for scientific
               research and development. Peptide Sciences™ uses automated, and
               manual peptide synthesizers as well as solution and solid-phase

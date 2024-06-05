@@ -14,9 +14,9 @@ const Footer = () => {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0 p-3">
               <a href="https://flowbite.com/" className="flex items-center">
-              <img src="https://github.com/Dinkar20001/for-image/assets/169672358/e1342927-9fe7-41d5-80a6-09552f921a7b" width="{90}" height="{90}" alt="Flowbite Logo" />
+              <img src="https://github.com/Dinkar20001/for-image/assets/169672358/e1342927-9fe7-41d5-80a6-09552f921a7b" width={180} height={180} alt="Flowbite Logo" />
               </a>
-              <p className="w-72 mt-6">
+              <p className="w-72 mt-6 dark:text-white">
               Bioplentypeps Sciences has been working with scientists for over 19 years to provide the life science community with the latest and most innovative research tools available.
               </p>
             </div>

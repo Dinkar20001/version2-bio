@@ -6,7 +6,7 @@ const Ourcompany = () => {
     <>
       <section>
       <div className="max-w-screen-xl mx-auto">
-        <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
+        <section className="relative z-10 overflow-hidden dark:text-white dark:bg-gray-900 bg-white py-20 dark:bg-dark lg:py-[120px]">
           <div className="container">
             <div className="-mx-4 flex flex-wrap lg:justify-between">
               <div className="w-full px-7 lg:w-1/2 xl:w-6/12">

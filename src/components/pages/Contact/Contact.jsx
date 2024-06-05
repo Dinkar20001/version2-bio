@@ -13,7 +13,7 @@ const Contact = () => {
                   <span className="mb-4 block text-base underline font-semibold">
                     Contact Us
                   </span>
-                  <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                  <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-black sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                     GET IN TOUCH WITH US
                   </h2>
                   <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">

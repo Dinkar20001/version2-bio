@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import { FaRegUserCircle } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import Hoverpeptide from "./Hoverpeptide";
-import './Navbar.css'
-import MegaMenu from "./AI";
+import "./Navbar.css";
+import MegaMenu from "./MegaMenu";
+import Specialpeptide from "./Specialpeptide";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -26,7 +27,7 @@ const Navbar = () => {
                 alt="Flowbite Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              {/* Bioplentypeps */}
+                {/* Bioplentypeps */}
               </span>
             </Link>
 
@@ -156,66 +157,53 @@ const Navbar = () => {
                     <span>
                       <FaRegUserCircle className="w-6 h-6" />
                     </span>
-                    <Link to="signin">
-                      Sign in
-                    </Link>
+                    <Link to="signin">Sign in</Link>
                   </div>
                 </li>
                 <li>
                   <div className="flex justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                     <MdOutlineShoppingCart className="w-6 h-6" />
-                    <a href="#">
-                      My Cart
-                    </a>
+                    <a href="#">My Cart</a>
+                  </div>
+                </li>
+
+                <div className="md:hidden">
+                  <Hoverpeptide />
+                  {/* <MegaMenu/> */}
+                </div>
+
+                <li>
+                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                    <a href="#">Peptide Specials</a>
                   </div>
                 </li>
 
                 <li>
                   <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#">
-                      Buy Peptides
-                    </a>
+                    <a href="#">Peptide Blog</a>
                   </div>
                 </li>
 
                 <li>
                   <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#">
-                      Peptide Specials
-                    </a>
+                    <Link to="pepdite-information">Peptide Information</Link>
                   </div>
                 </li>
 
                 <li>
-                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <a href="#">
-                      Peptide Blog
-                    </a>
-                  </div>
-                </li>
-
-                <li>
-                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                    <Link to="pepdite-information">
-                      Peptide Information
-                    </Link>
-                  </div>
-                </li>
-
-                <li>
-                    <Link to="ourcompany">
-                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                  <Link to="ourcompany">
+                    <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                       Our Company
-                  </div>
-                    </Link>
+                    </div>
+                  </Link>
                 </li>
 
                 <li>
-                    <Link to="contact">
-                  <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                  <Link to="contact">
+                    <div className="flex md:hidden hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold justify-center items-center gap-1 cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                       Contact Us
-                  </div>
-                    </Link>
+                    </div>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -223,13 +211,13 @@ const Navbar = () => {
 
           <div className="max-w-screen-xl relative hidden md:flex flex-wrap items-center justify-between mx-auto p-4">
             <div>
-              <ul className="flex gap-9">
-              
-                <Hoverpeptide/>
+              <ul className="flex gap-9 dark:text-white">
+                <Hoverpeptide />
                 {/* <MegaMenu/> */}
-                <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
-                  <a href="#">Peptides Specials</a>
-                </li>
+
+                {/* Peptide specials */}
+                <Specialpeptide/>
+
                 <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
                   <Link to="blog">Peptides Blog</Link>
                 </li>
@@ -240,7 +228,7 @@ const Navbar = () => {
             </div>
 
             <div>
-              <ul className="flex gap-9">
+              <ul className="flex gap-9 dark:text-white">
                 <li className="hover:underline transition-All duration-500 hover:text-gray-500 hover:scale-110 hover:font-bold">
                   <Link to="ourcompany">Our Company</Link>
                 </li>
